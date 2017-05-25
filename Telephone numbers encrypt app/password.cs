@@ -10,11 +10,20 @@ using System.Windows.Forms;
 
 namespace Telephone_numbers_encrypt_app
 {
-    public partial class Form1 : Form
+    public partial class password : Form
     {
-        public Form1()
+        public string str = "";
+
+        public password()
         {
             InitializeComponent();
+            MinimumSize = MaximumSize = Size;
+        }
+
+        private void button_Click(object sender, EventArgs e)
+        {
+            str = textBox.Text;
+            Close();
         }
     }
 }
