@@ -25,7 +25,7 @@ namespace Telephone_numbers_encrypt_app
             else
             {
                 Text = "編集";
-                password ps = new password();
+                password ps = new password("passwordを入力");
                 ps.ShowDialog();
                 fileenc.DecryptFile(Program.path + "enc", Program.path, ps.str);
                 ps.Dispose();

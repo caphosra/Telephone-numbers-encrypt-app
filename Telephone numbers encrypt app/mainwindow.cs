@@ -43,9 +43,10 @@ namespace Telephone_numbers_encrypt_app
 
         }
 
-        private void ToolStripMenuItem2_Click(object sender, EventArgs e)
+        private void ToolStripMenuItem2_1_Click(object sender, EventArgs e)
         {
-
+            検索 k = new 検索();
+            k.ShowDialog();
         }
     }
 }

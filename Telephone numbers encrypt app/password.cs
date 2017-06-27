@@ -14,10 +14,11 @@ namespace Telephone_numbers_encrypt_app
     {
         public string str = "";
 
-        public password()
+        public password(string text = "input")
         {
             InitializeComponent();
             MinimumSize = MaximumSize = Size;
+            Text = text;
         }
 
         private void button_Click(object sender, EventArgs e)

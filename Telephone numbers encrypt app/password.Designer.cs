@@ -60,7 +60,6 @@
             this.Controls.Add(this.textBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "password";
-            this.Text = "password";
             this.ResumeLayout(false);
             this.PerformLayout();
 

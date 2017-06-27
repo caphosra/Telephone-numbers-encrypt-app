@@ -31,10 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainwindow));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.label = new System.Windows.Forms.Label();
             this.ToolStripMenuItem1_1 = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenuItem1_2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.label = new System.Windows.Forms.Label();
+            this.ToolStripMenuItem2_1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,12 +61,27 @@
             this.ToolStripMenuItem1.Size = new System.Drawing.Size(62, 24);
             this.ToolStripMenuItem1.Text = "ファイル";
             // 
+            // ToolStripMenuItem1_1
+            // 
+            this.ToolStripMenuItem1_1.Name = "ToolStripMenuItem1_1";
+            this.ToolStripMenuItem1_1.Size = new System.Drawing.Size(144, 26);
+            this.ToolStripMenuItem1_1.Text = "新規作成";
+            this.ToolStripMenuItem1_1.Click += new System.EventHandler(this.ToolStripMenuItem1_1_Click);
+            // 
+            // ToolStripMenuItem1_2
+            // 
+            this.ToolStripMenuItem1_2.Name = "ToolStripMenuItem1_2";
+            this.ToolStripMenuItem1_2.Size = new System.Drawing.Size(144, 26);
+            this.ToolStripMenuItem1_2.Text = "編集";
+            this.ToolStripMenuItem1_2.Click += new System.EventHandler(this.ToolStripMenuItem1_2_Click);
+            // 
             // ToolStripMenuItem2
             // 
+            this.ToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToolStripMenuItem2_1});
             this.ToolStripMenuItem2.Name = "ToolStripMenuItem2";
-            this.ToolStripMenuItem2.Size = new System.Drawing.Size(51, 24);
-            this.ToolStripMenuItem2.Text = "検索";
-            this.ToolStripMenuItem2.Click += new System.EventHandler(this.ToolStripMenuItem2_Click);
+            this.ToolStripMenuItem2.Size = new System.Drawing.Size(54, 24);
+            this.ToolStripMenuItem2.Text = "ツール";
             // 
             // label
             // 
@@ -76,19 +92,12 @@
             this.label.TabIndex = 1;
             this.label.Text = "このアプリは電話帳を暗号化し管理するアプリです。\r\n勿論、復号化もできます。\r\nこれを使えばセキュリティーが向上します！";
             // 
-            // ToolStripMenuItem1_1
+            // ToolStripMenuItem2_1
             // 
-            this.ToolStripMenuItem1_1.Name = "ToolStripMenuItem1_1";
-            this.ToolStripMenuItem1_1.Size = new System.Drawing.Size(181, 26);
-            this.ToolStripMenuItem1_1.Text = "新規作成";
-            this.ToolStripMenuItem1_1.Click += new System.EventHandler(this.ToolStripMenuItem1_1_Click);
-            // 
-            // ToolStripMenuItem1_2
-            // 
-            this.ToolStripMenuItem1_2.Name = "ToolStripMenuItem1_2";
-            this.ToolStripMenuItem1_2.Size = new System.Drawing.Size(181, 26);
-            this.ToolStripMenuItem1_2.Text = "編集";
-            this.ToolStripMenuItem1_2.Click += new System.EventHandler(this.ToolStripMenuItem1_2_Click);
+            this.ToolStripMenuItem2_1.Name = "ToolStripMenuItem2_1";
+            this.ToolStripMenuItem2_1.Size = new System.Drawing.Size(181, 26);
+            this.ToolStripMenuItem2_1.Text = "検索";
+            this.ToolStripMenuItem2_1.Click += new System.EventHandler(this.ToolStripMenuItem2_1_Click);
             // 
             // mainwindow
             // 
@@ -116,6 +125,7 @@
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem1_1;
         private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem1_2;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem2_1;
     }
 }
 

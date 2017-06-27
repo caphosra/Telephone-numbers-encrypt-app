@@ -55,7 +55,7 @@
             // 
             this.textBox0.Location = new System.Drawing.Point(91, 6);
             this.textBox0.Name = "textBox0";
-            this.textBox0.Size = new System.Drawing.Size(239, 22);
+            this.textBox0.Size = new System.Drawing.Size(258, 22);
             this.textBox0.TabIndex = 1;
             // 
             // label2
@@ -73,7 +73,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox1.Size = new System.Drawing.Size(239, 110);
+            this.textBox1.Size = new System.Drawing.Size(258, 110);
             this.textBox1.TabIndex = 3;
             // 
             // label3
@@ -91,7 +91,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox2.Size = new System.Drawing.Size(239, 110);
+            this.textBox2.Size = new System.Drawing.Size(258, 110);
             this.textBox2.TabIndex = 5;
             // 
             // label4
@@ -106,15 +106,17 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(91, 266);
+            this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(239, 22);
+            this.textBox3.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBox3.Size = new System.Drawing.Size(258, 110);
             this.textBox3.TabIndex = 7;
             // 
             // button
             // 
-            this.button.Location = new System.Drawing.Point(12, 332);
+            this.button.Location = new System.Drawing.Point(12, 425);
             this.button.Name = "button";
-            this.button.Size = new System.Drawing.Size(318, 30);
+            this.button.Size = new System.Drawing.Size(337, 30);
             this.button.TabIndex = 8;
             this.button.Text = "保存";
             this.button.UseVisualStyleBackColor = true;
@@ -123,7 +125,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 297);
+            this.label5.Location = new System.Drawing.Point(12, 385);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 15);
             this.label5.TabIndex = 9;
@@ -131,17 +133,17 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(91, 294);
+            this.textBox4.Location = new System.Drawing.Point(91, 382);
             this.textBox4.Name = "textBox4";
             this.textBox4.PasswordChar = '*';
-            this.textBox4.Size = new System.Drawing.Size(239, 22);
+            this.textBox4.Size = new System.Drawing.Size(258, 22);
             this.textBox4.TabIndex = 10;
             // 
             // 編集window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(348, 372);
+            this.ClientSize = new System.Drawing.Size(361, 467);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox0);
             this.Controls.Add(this.textBox1);
